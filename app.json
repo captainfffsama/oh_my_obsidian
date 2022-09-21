@@ -6,11 +6,12 @@
   "foldIndent": true,
   "showLineNumber": true,
   "autoConvertHtml": true,
-  "vimMode": true,
+  "vimMode": false,
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
   "legacyEditor": false,
   "livePreview": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showFrontmatter": false
 }

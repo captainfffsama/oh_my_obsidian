@@ -1,6 +1,6 @@
 {
   "blue-topaz-theme@@transparent-setting-panel": false,
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-autumn-topaz",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-default",
   "blue-topaz-theme@@code-box-style-option": "codebox-frosted-glass",
   "blue-topaz-theme@@blur-codebox-frosted-glass": 8,
   "blue-topaz-theme@@nowrap-edit-codebox": false,
@@ -13,5 +13,8 @@
   "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
   "blue-topaz-theme@@bt-status-off": false,
   "blue-topaz-theme@@font-size-code": "0.7em",
-  "blue-topaz-theme@@toggle-left-aligned-content": false
+  "blue-topaz-theme@@toggle-left-aligned-content": false,
+  "blue-topaz-theme@@setting-etc-pane-style": "setting-default-frosted-glass",
+  "blue-topaz-theme@@simple-titlebar": true,
+  "blue-topaz-theme@@background-settings-workplace-background-image": true
 }
