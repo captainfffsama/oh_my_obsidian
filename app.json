@@ -11,5 +11,6 @@
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "readableLineLength": false
 }
