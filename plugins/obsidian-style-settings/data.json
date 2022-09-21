@@ -5,5 +5,13 @@
   "blue-topaz-theme@@blur-codebox-frosted-glass": 8,
   "blue-topaz-theme@@nowrap-edit-codebox": false,
   "blue-topaz-theme@@fancy-hr": "fancy-hr-no-icon",
-  "blue-topaz-theme@@whole-code-wrap": true
+  "blue-topaz-theme@@whole-code-wrap": true,
+  "blue-topaz-theme@@muted-activeline-bg": false,
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
+  "blue-topaz-theme@@right-ribbon-style": "right-ribbon-hide-to-right",
+  "blue-topaz-theme@@layout-style-options": "layout-style-options-default",
+  "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
+  "blue-topaz-theme@@bt-status-off": false,
+  "blue-topaz-theme@@font-size-code": "0.7em",
+  "blue-topaz-theme@@toggle-left-aligned-content": false
 }
