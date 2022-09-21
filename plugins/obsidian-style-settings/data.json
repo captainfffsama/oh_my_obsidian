@@ -1,0 +1,9 @@
+{
+  "blue-topaz-theme@@transparent-setting-panel": false,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-autumn-topaz",
+  "blue-topaz-theme@@code-box-style-option": "codebox-frosted-glass",
+  "blue-topaz-theme@@blur-codebox-frosted-glass": 8,
+  "blue-topaz-theme@@nowrap-edit-codebox": false,
+  "blue-topaz-theme@@fancy-hr": "fancy-hr-no-icon",
+  "blue-topaz-theme@@whole-code-wrap": true
+}
