@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 26,
+  "theme": "moonstone",
+  "cssTheme": "Solarized",
+  "enabledCssSnippets": [],
+  "monospaceFontFamily": "Courier New",
+  "interfaceFontFamily": "Ubuntu Condensed",
+  "textFontFamily": "DejaVu Sans"
+}
