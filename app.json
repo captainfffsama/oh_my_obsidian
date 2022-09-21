@@ -6,7 +6,7 @@
   "foldIndent": true,
   "showLineNumber": true,
   "autoConvertHtml": true,
-  "vimMode": false,
+  "vimMode": true,
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
