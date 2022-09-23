@@ -7,7 +7,6 @@
       "key": "O"
     }
   ],
-  "app:go-forward": [],
   "switcher:open": [
     {
       "modifiers": [
@@ -24,5 +23,16 @@
       "key": "G"
     }
   ],
-  "graph:open": []
+  "graph:open": [],
+  "editor:toggle-bold": [],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "editor:toggle-italics": [],
+  "obsidian-excalidraw-plugin:insert-link": []
 }

@@ -11,7 +11,14 @@
       "query": "tag:CPP",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 9264342
+      }
+    },
+    {
+      "query": "tag:#深度学习",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
       }
     }
   ],
@@ -25,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9681619554185513,
+  "scale": 0.9681619554185351,
   "close": false
 }
