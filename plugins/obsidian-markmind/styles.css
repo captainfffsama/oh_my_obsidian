@@ -1,7 +1,7 @@
-@font-face{
+/* @font-face{
   font-family: 'myFont'; 
   src:url('http://cdn.ghost-jack.top/chinese.ttf');
-}
+} */
 .mm-handdraw-theme{
   font-family:'myFont';
 }
@@ -293,7 +293,9 @@
   width:212px;
   border-radius: 0.25rem;
   z-index: 6000;
-  padding-top:2px;
+  padding-top:5px;
+  height: 28px;
+  box-sizing: border-box;
 }
 
 .theme-light .mm-node-menu{
@@ -1522,8 +1524,11 @@ td,th {
   vertical-align: middle;
   margin:0 2px;
   font-size: 12px;
-  float: left;
+  
   text-align: center;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
 }
 
 .mm-scale span.mm-scale-number{
