@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "45822c185f513a90",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b9f1d8388921b1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c74305a23c0f6d85",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "paper/README.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.23867717269606595,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "06e387bd7db8e457",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44708f5322889ff2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d005fb952e2f9e33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb98996b5eb238ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "45ec08d44e8ace13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b206ff3f1c95c058",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "627b0ca39a8f24d2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "19c00e2221b1b6c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243
+  },
+  "right": {
+    "id": "69193a327e229b1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7a9a6972bc6ac06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81bf12a9413b944e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "paper/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c6466970e2718dab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "paper/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "f559ecdf5f61e8a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e4d3f6d9a2070e08",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb59d0c55fc2c39f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "paper/README.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "d005fb952e2f9e33",
+  "lastOpenFiles": [
+    "paper/paper_note/Sub-Image Anomaly Detection with Deep Pyramid Correspondences.md",
+    "paper/README.md",
+    "paper/paper_note/Rethinking Assumptions in Deep Anomaly Detection.md",
+    "paper/paper_note/Divide-and-Assemble_Learning Block-wise Memory for Unsupervised Anomaly Detection.md",
+    "paper/paper_note/adVAE.md",
+    "Excalidraw/Drawing 2022-10-17 15.03.44.excalidraw.md",
+    "BasicProgramming/grpc/Protocol Buffer Basics Python 翻译.md",
+    "BasicProgramming/CPlusPlus/C++ 自由存储区是否等价于堆.md",
+    "BasicProgramming/python/Future 对象.md",
+    "BasicProgramming/grpc/grpc python  快速上手.md"
+  ]
+}

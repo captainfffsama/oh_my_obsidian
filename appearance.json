@@ -1,9 +1,10 @@
 {
   "baseFontSize": 17,
   "theme": "moonstone",
-  "cssTheme": "Primary",
+  "cssTheme": "Blue Topaz",
   "enabledCssSnippets": [],
   "monospaceFontFamily": "Courier New",
   "interfaceFontFamily": "Ubuntu Condensed",
-  "textFontFamily": "DejaVu Sans"
+  "textFontFamily": "DejaVu Sans",
+  "accentColor": ""
 }
