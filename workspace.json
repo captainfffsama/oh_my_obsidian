@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "paper/README.md",
+                "file": "DevelopTools/pytorch/inplace.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -43,12 +43,12 @@
             }
           },
           {
-            "id": "06e387bd7db8e457",
+            "id": "97095ff728741d5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/README.md",
+                "file": "paper/paper_note/Motion Basis Learning for Unsupervised Deep Homography Estimation with Subspace Projection.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -56,25 +56,12 @@
             }
           },
           {
-            "id": "44708f5322889ff2",
+            "id": "e85c23fc958f3a9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/README.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d005fb952e2f9e33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paper/README.md",
+                "file": "DevelopTools/pytorch/inplace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -82,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/README.md",
+                "file": "DevelopTools/pytorch/inplace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper/README.md",
+                "file": "DevelopTools/pytorch/inplace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper/README.md"
+                "file": "DevelopTools/pytorch/inplace.md"
               }
             }
           }
@@ -211,17 +198,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d005fb952e2f9e33",
+  "active": "e85c23fc958f3a9e",
   "lastOpenFiles": [
-    "paper/paper_note/Sub-Image Anomaly Detection with Deep Pyramid Correspondences.md",
+    "paper/paper_note/Motion Basis Learning for Unsupervised Deep Homography Estimation with Subspace Projection.md",
+    "爬坑/numpy中ndarray的dtype 是 object解码方式.md",
     "paper/README.md",
+    "BasicProgramming/CPlusPlus/C14/二进制字面量.md",
+    "paper/paper_note/Towards Total Recall in Industrial Anomaly Detection.md",
+    "paper/paper_note/Sub-Image Anomaly Detection with Deep Pyramid Correspondences.md",
     "paper/paper_note/Rethinking Assumptions in Deep Anomaly Detection.md",
     "paper/paper_note/Divide-and-Assemble_Learning Block-wise Memory for Unsupervised Anomaly Detection.md",
     "paper/paper_note/adVAE.md",
-    "Excalidraw/Drawing 2022-10-17 15.03.44.excalidraw.md",
-    "BasicProgramming/grpc/Protocol Buffer Basics Python 翻译.md",
-    "BasicProgramming/CPlusPlus/C++ 自由存储区是否等价于堆.md",
-    "BasicProgramming/python/Future 对象.md",
-    "BasicProgramming/grpc/grpc python  快速上手.md"
+    "Excalidraw/Drawing 2022-10-17 15.03.44.excalidraw.md"
   ]
 }
