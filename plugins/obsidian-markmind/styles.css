@@ -1548,6 +1548,12 @@ td,th {
    fill:#f5f5f5;
 }
 
+.mm-scale .mm-center-btn svg{
+  margin-top:5px;
+}
+.mm-scale .mm-center-btn {
+  margin-left: 6px;
+}
 
 /* hover edit */
 

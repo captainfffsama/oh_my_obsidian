@@ -4,51 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b9f1d8388921b1c",
+        "id": "ac5c96883279d706",
         "type": "tabs",
         "children": [
           {
-            "id": "c74305a23c0f6d85",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "DevelopTools/pytorch/inplace.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.23867717269606595,
-                  "close": false
-                }
-              }
-            }
-          },
-          {
-            "id": "97095ff728741d5e",
+            "id": "6b873fd92e8dd067",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/paper_note/Motion Basis Learning for Unsupervised Deep Homography Estimation with Subspace Projection.md",
+                "file": "DevelopTools/Qt/Support for Signals and Slots — PyQt 5.7 Reference Guide.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -56,12 +21,25 @@
             }
           },
           {
-            "id": "e85c23fc958f3a9e",
+            "id": "e627818e70eaea75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevelopTools/pytorch/inplace.md",
+                "file": "爬坑/报错.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed7d55c25cf1fb7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "爬坑/matplotlib随意更改图例.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,12 +61,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "19c00e2221b1b6c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
             "id": "b206ff3f1c95c058",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "装饰器",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,19 +92,8 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "19c00e2221b1b6c3",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevelopTools/pytorch/inplace.md",
+                "file": "爬坑/matplotlib随意更改图例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevelopTools/pytorch/inplace.md",
+                "file": "爬坑/matplotlib随意更改图例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -184,31 +161,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevelopTools/pytorch/inplace.md"
+                "file": "爬坑/matplotlib随意更改图例.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 200
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "e85c23fc958f3a9e",
+  "active": "ed7d55c25cf1fb7c",
   "lastOpenFiles": [
-    "paper/paper_note/Motion Basis Learning for Unsupervised Deep Homography Estimation with Subspace Projection.md",
-    "爬坑/numpy中ndarray的dtype 是 object解码方式.md",
-    "paper/README.md",
-    "BasicProgramming/CPlusPlus/C14/二进制字面量.md",
-    "paper/paper_note/Towards Total Recall in Industrial Anomaly Detection.md",
-    "paper/paper_note/Sub-Image Anomaly Detection with Deep Pyramid Correspondences.md",
-    "paper/paper_note/Rethinking Assumptions in Deep Anomaly Detection.md",
-    "paper/paper_note/Divide-and-Assemble_Learning Block-wise Memory for Unsupervised Anomaly Detection.md",
-    "paper/paper_note/adVAE.md",
-    "Excalidraw/Drawing 2022-10-17 15.03.44.excalidraw.md"
+    "爬坑/报错.md",
+    "DevelopTools/Qt/Support for Signals and Slots — PyQt 5.7 Reference Guide.md",
+    "DevelopTools/Qt/QGraphicsObject.md",
+    "DevelopTools/Qt/PyQt(Python+Qt)实现的GUI图形界面应用程序的事件捕获方法大全及对比分析.md",
+    "DevelopTools/Tmux使用手册.md",
+    "DevelopTools/ubunu 新机装机流程.md",
+    "DL_knowlege/关于目标检测中 IOU 损失函数.md",
+    "爬坑/杂坑.md",
+    "爬坑/删除陈旧的APT仓库.md",
+    "BasicProgramming/python/locals 和 globals.md"
   ]
 }
