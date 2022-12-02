@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac5c96883279d706",
+        "id": "45e4c61821e33ac4",
         "type": "tabs",
         "children": [
           {
-            "id": "6b873fd92e8dd067",
+            "id": "1897565d22b4551b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevelopTools/Qt/Support for Signals and Slots — PyQt 5.7 Reference Guide.md",
+                "file": "DevelopTools/nvim环境搭建.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "e627818e70eaea75",
+            "id": "811b7e1606f59fc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "爬坑/报错.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed7d55c25cf1fb7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "爬坑/matplotlib随意更改图例.md",
+                "file": "DevelopTools/Qt/Qt中文硬编码问题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "装饰器",
+                "query": "neovim",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243
+    "width": 485.5
   },
   "right": {
     "id": "69193a327e229b1e",
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "爬坑/matplotlib随意更改图例.md",
+                "file": "DevelopTools/Qt/Qt中文硬编码问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "爬坑/matplotlib随意更改图例.md",
+                "file": "DevelopTools/Qt/Qt中文硬编码问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "爬坑/matplotlib随意更改图例.md"
+                "file": "DevelopTools/Qt/Qt中文硬编码问题.md"
               }
             }
           }
@@ -170,19 +157,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
-  "active": "ed7d55c25cf1fb7c",
+  "active": "811b7e1606f59fc2",
   "lastOpenFiles": [
-    "爬坑/报错.md",
-    "DevelopTools/Qt/Support for Signals and Slots — PyQt 5.7 Reference Guide.md",
-    "DevelopTools/Qt/QGraphicsObject.md",
-    "DevelopTools/Qt/PyQt(Python+Qt)实现的GUI图形界面应用程序的事件捕获方法大全及对比分析.md",
+    "DevelopTools/nvim环境搭建.md",
     "DevelopTools/Tmux使用手册.md",
-    "DevelopTools/ubunu 新机装机流程.md",
-    "DL_knowlege/关于目标检测中 IOU 损失函数.md",
-    "爬坑/杂坑.md",
-    "爬坑/删除陈旧的APT仓库.md",
-    "BasicProgramming/python/locals 和 globals.md"
+    "DevelopTools/pytorch/翻译CUDA semantics.md",
+    "paper/README.md",
+    "Excalidraw/Drawing 2022-11-22 19.22.44.excalidraw.md",
+    "读书笔记/C++标准模板库编程实战.md",
+    "读书笔记/Drawing 2022-11-22 10.59.56.excalidraw.md",
+    "readme.md",
+    "BasicProgramming/CPlusPlus/C++注意点.md",
+    "BasicProgramming/CPlusPlus/模板实现必须放在头文件.md"
   ]
 }
