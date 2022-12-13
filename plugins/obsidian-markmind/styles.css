@@ -54,6 +54,7 @@
   font-size: 16px;
   width: 8000px;
   height: 8000px;
+  transition: all 0.15s linear;
 
 }
 
