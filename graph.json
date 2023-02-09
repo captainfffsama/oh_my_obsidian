@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "vscode",
+  "collapse-filter": true,
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -13,20 +13,6 @@
         "a": 1,
         "rgb": 9264342
       }
-    },
-    {
-      "query": "tag:#深度学习",
-      "color": {
-        "a": 1,
-        "rgb": 14069084
-      }
-    },
-    {
-      "query": "tag:#qt",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
     }
   ],
   "collapse-display": false,
@@ -34,11 +20,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.008687047045862,
+  "scale": 0.1345769099053422,
   "close": false
 }
