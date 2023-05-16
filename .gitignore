@@ -1,2 +1,4 @@
 workspace
 workspace.json
+.vscode/
+.history/
