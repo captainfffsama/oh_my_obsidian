@@ -1,5 +1,5 @@
-/*蓝色托帕石，适合Obsidian v1.2.8。uid [20230719] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
-/*Blue Topaz for Obsidian v1.2.8, uid [20230719] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+/*蓝色托帕石，适合Obsidian v1.2.8。uid [20230802] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v1.2.8, uid [20230802] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
 
 /* 致谢 Credits：
 thanks pkmer.cn
@@ -1440,7 +1440,7 @@ settings:
     title: Inline Code
     title.zh: 行内代码字体
     type: variable-text
-    default: var(--font-monospace-theme)
+    default: var(--font-monospace-override), var(--font-monospace-theme)
   -
     id: font-family-tag
     title: Tag
@@ -1504,6 +1504,12 @@ settings:
     title.zh: 左侧边栏文件字体大小
     type: variable-text
     default: 0.85em
+  -
+    id: font-size-outline
+    title: outline font size
+    title.zh: 大纲字体大小
+    type: variable-text
+    default: 13px
   -
     id: font-size-code
     title: Codeblock
@@ -4890,6 +4896,7 @@ body {
   --font-size-list: 1em;
   --font-size-preview-blockquote: 1em;
   --font-size-edit-blockquote: 1em;
+  --font-size-outline:var(--nav-item-size);
   --font-size-code: 1em;
   --font-size-latex: 1.25em;
   --font-size-cloze: 0.9375em;
@@ -4913,7 +4920,7 @@ body {
   --font-family-title: ;/*文件抬头标题*/
   --font-family-folder-file-title: Arlrdbd, "Source Han Sans", "Noto Sans CJK", "Source Sans Pro", "Segoe UI Emoji", sans-serif;/*左侧边栏文件、文件夹字体*/
   --font-monospace-theme: 'JetBrains Mono',Consolas, Monaco, "等距更纱黑体 SC", "Source Han Mono", "Microsoft Yahei Mono", "Segoe UI Emoji", "Microsoft YaHei", "Source Code Pro", monospace;
-  --font-family-inline-code: var(--font-monospace-theme);
+  --font-family-inline-code: var(--font-monospace-override), var(--font-monospace-theme);
   --font-family-tag: Bookerly,'Inter', "Segoe UI", "Microsoft YaHei", STzhongsong, STSong, "Segoe UI Emoji", Serif;
   --font-family-vault: "Lucida Handwriting", "Segoe UI Emoji";/*左侧库名字体*/
   --font-family-special-tag: "Lucida Handwriting", "Segoe UI Emoji";
@@ -9594,13 +9601,13 @@ body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered
 body.font-family-change-to-default *:not(font)>em>strong,
 body.font-family-change-to-default *:not(font)>strong>em,
 body.font-family-change-to-default .cm-strong.cm-em {
-  font-family: unset !important;
+  font-family: var(--font-text)!important;
 }
 
 body.font-family-change-to-default .cm-s-obsidian .cm-hmd-frontmatter,
 body.font-family-change-to-default .markdown-rendered code,
 body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) code{
-  font-family: 'Source Code Pro', monospace !important;
+  font-family: var(--font-monospace);
 }
 
 body.reduce-bottom-padding .workspace-leaf-content[data-type="markdown"] :is(.markdown-preview-view,.markdown-rendered) .markdown-preview-sizer,
@@ -10369,8 +10376,8 @@ body:not(.tag-default) .tag:not(.token):hover {
   background-color: var(--theme-color) !important;
 }
 
-body:not(.tag-default) .cm-s-obsidian span.cm-hashtag {
-  font-family: var(--font-family-tag) !important;
+body:is(:not(.tag-default),:not(.font-family-change-to-default)) .cm-s-obsidian span.cm-hashtag {
+  font-family: var(--font-family-tag);
   font-size: var(--font-size-tag) !important;
   text-decoration: none;
 }
@@ -11269,6 +11276,10 @@ body:not(.is-focused) .titlebar-text {
 .outline .tree-item-self.is-clickable:hover {
   background-color: var(--theme-color-translucent-015);
   color: var(--text-normal);
+}
+.outline .tree-item-self
+{
+  font-size: var(--font-size-outline);
 }
 
 .search-result-file-match:hover {
@@ -21791,7 +21802,7 @@ body.toggle-bg-panel-page.panel-page-bg-theme-light-custom.theme-light {
 }
 
 
-body.toggle-nonoverlapping-bg .workspace-split.mod-root .view-content {
+body.background-image-settings-switch.toggle-nonoverlapping-bg .workspace-split.mod-root .view-content {
   background: var(--background-nonoverlapping-note);
 }
 
