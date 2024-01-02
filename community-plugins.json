@@ -6,5 +6,7 @@
   "table-editor-obsidian",
   "obsidian-floating-toc",
   "obsidian-style-settings",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-linter",
+  "easy-typing-obsidian"
 ]
