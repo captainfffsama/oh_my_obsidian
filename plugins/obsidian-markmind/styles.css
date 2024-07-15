@@ -97,7 +97,7 @@
 }
 
 .mm-node .mm-node-content img {
-   min-width:50px;
+  min-width: 50px;
 }
 
 .mm-node.node-wireFrame .mm-node-content {
@@ -137,8 +137,9 @@
 .mm-node-edit>ul {
   padding-left: 20px;
 }
-.mm-node-edit audio{
-min-width:300px
+
+.mm-node-edit audio {
+  min-width: 300px
 }
 
 /* 笔记渲染表格 */
@@ -363,7 +364,7 @@ min-width:300px
   position: absolute;
   background: #333;
   border: 1px solid #000;
-  width: 240px;
+  width: 270px;
   border-radius: 0.25rem;
   z-index: 6000;
   height: 32px;
@@ -2040,12 +2041,12 @@ th {
 /* 联系线两边的标志 */
 
 .mm-assist-lineMarker span {
-  display:inline-block;
+  display: inline-block;
 }
 
 .mm-assist-lineMarker>span {
- width: 30px;
- cursor: pointer;
+  width: 30px;
+  cursor: pointer;
 }
 
 .mm-assist-lineMarker>span.mm-circle .shape {
@@ -2060,7 +2061,8 @@ th {
   height: 10px;
   background-color: #817f7f;
 }
- span.mm-sline .line {
+
+span.mm-sline .line {
   width: 20px;
 }
 
@@ -2088,4 +2090,181 @@ th {
   border-right: 10px solid #817f7f;
   border-bottom: 5px solid transparent;
   background: transparent !important;
+}
+
+
+/* icon */
+.mm-icon-item {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.mm-node-content .mm-icon-item img {
+  width: 100%;
+  height: 100%;
+  min-width: 10px !important;
+}
+
+.mm-icon-item svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.mm-icon-container {
+  background: #333;
+  border: 1px solid #000;
+  width: 300px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 0.25rem;
+  z-index: 6000;
+  padding: 10px;
+}
+
+.mm-node-icon-con {
+  background: #333;
+  border: 1px solid #000;
+  width: 300px;
+  overflow: auto;
+  border-radius: 0.25rem;
+  z-index: 6000;
+  padding: 10px;
+  position: absolute;
+}
+
+.theme-light .mm-node-icon-con,
+.theme-light .mm-icon-container {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.mm-node-icon-item {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  vertical-align: middle;
+  margin: 4px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.mm-node-icon-item img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.mm-node-icon-item svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.mm-node-icon-item.active svg,
+.mm-node-icon-item.active img {
+  width: 80% !important;
+  height: 80% !important;
+}
+
+.mm-node-icon-item.active {
+  background-color: #1b1b1b;
+  border-radius: 5px;
+}
+
+.mm-icon-header {
+  line-height: 30px;
+  margin-bottom: 6px;
+}
+
+.mm-node-icon-delete {
+  line-height: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-top: 1px solid #666;
+}
+
+.mm-node-icon-content {
+  margin-bottom: 20px;
+}
+
+.mm-node-content .mm-icon-item {
+  margin-right: 4px;
+}
+
+.mm-node-content .mm-icon-item:last-child {
+  margin-right: 8px;
+}
+
+.mm-history-list {
+  position: fixed;
+  width: 80%;
+  max-width: 900px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  display: none;
+  z-index: 2000;
+  transform: translate(-50%, -50%);
+  background-color: #1b1b1b;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.theme-light .mm-history-list {
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+}
+
+.mm-history-header {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mm-history-header .mm-history-close svg {
+  fill: #fff;
+  color: #fff;
+}
+
+.theme-light .mm-history-header .mm-history-close svg {
+  fill: #666;
+  color: #666;
+}
+
+.mm-history-list .mm-history-search {
+  width: 300px;
+  height: 28px;
+  line-height: 28px;
+  transform: translate(10%, -20px);
+}
+
+.mm-history-list .mm-history-content {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.mm-history-list .mm-history-item {
+  margin-bottom: 20px;
+}
+
+.mm-history-clear-btn {
+  transform: translate(60px, -20px)
+}
+
+.mm-node-bg-input,
+.mm-node-text-input,
+.mm-node-stroke-input {
+  border: 0 !important;
 }
