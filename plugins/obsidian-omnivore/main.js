@@ -15075,7 +15075,7 @@ var fetchContentForItems = async (endpoint, apiKey, items) => {
     }
     item.content = await Promise.race([
       downloadFromUrl(c.downloadUrl),
-      new Promise((_, reject) => setTimeout(() => reject("Timeout"), 6e4))
+      new Promise((_, reject) => setTimeout(() => reject("Timeout"), 6e5))
     ]);
   }));
 };
