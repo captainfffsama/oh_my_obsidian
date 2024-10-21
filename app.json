@@ -3,5 +3,6 @@
   "promptDelete": false,
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "attachmentFolderPath": "Attachments"
 }
