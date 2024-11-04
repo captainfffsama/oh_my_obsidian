@@ -1055,6 +1055,11 @@ th {
     word-wrap: break-word
 }
 
+.mm-node .mm-node-edit {
+    max-width: 450px;
+}
+
+
 .cm-edit-node .cm-node-text {
     padding-right: 2px
 }
@@ -1304,9 +1309,6 @@ th {
     border-radius: 4px;
 }
 
-.mm-node .mm-node-edit {
-    max-width: 450px;
-}
 
 .mm-node .mm-node-content img {
     min-width: 50px;
