@@ -4,5 +4,6 @@
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
   "showFrontmatter": true,
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "vimMode": true
 }
