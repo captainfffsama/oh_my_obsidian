@@ -300,7 +300,8 @@
     display: block;
     border: 1px solid #ccc;
     border-radius: 3px;
-    height: 28px
+    height: 28px;
+    box-shadow: none
 }
 
 .theme-dark .cm-form-row select {
@@ -1045,7 +1046,8 @@ th {
     max-width: 100%
 }
 
-.cm-node-text {
+.cm-node-text,
+.mm-node-edit {
     max-width: 450px;
     border-radius: 3px;
     outline: 0;
@@ -1055,10 +1057,11 @@ th {
     word-wrap: break-word
 }
 
-.mm-node .mm-node-edit {
-    max-width: 450px;
+.cm-node-text mjx-math,
+.mm-node-edit mjx-math {
+    max-width: 100%;
+    overflow: auto;
 }
-
 
 .cm-edit-node .cm-node-text {
     padding-right: 2px
@@ -1210,15 +1213,20 @@ th {
     overflow: visible
 }
 
+.cm-node-floatmenus {
+    position: fixed;
+    width: 320px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    border: 1px solid #666
+}
 
-/* @font-face{
-  font-family: 'myFont'; 
-  src:url('http://cdn.ghost-jack.top/chinese.ttf');
-} */
-
-
-.mm-handdraw-theme {
-    font-family: 'myFont';
+.theme-dark .cm-node-floatmenus {
+    background: #333;
+    color: #a3a3a3;
+    box-shadow: 0 0 10px #222;
+    border: 1px solid #000
 }
 
 .mm-app-container {
@@ -3481,4 +3489,16 @@ span.mm-sline .line {
 .mm-node-text-input,
 .mm-node-stroke-input {
     border: 0 !important;
+}
+
+
+.mm-node-image-embed {
+    position: relative;
+    display: inline-block;
+}
+
+.mm-node-image-control {
+    position: absolute;
+    right: -14px;
+    top: -2px;
 }
