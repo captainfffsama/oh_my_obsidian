@@ -6,7 +6,7 @@
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
   "fontAssetsPath": "Excalidraw/CJK Fonts",
-  "loadChineseFonts": false,
+  "loadChineseFonts": true,
   "loadJapaneseFonts": false,
   "loadKoreanFonts": false,
   "compress": true,
