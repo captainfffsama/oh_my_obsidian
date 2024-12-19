@@ -5,5 +5,5 @@
   "alwaysUpdateLinks": true,
   "showFrontmatter": true,
   "attachmentFolderPath": "Attachments",
-  "vimMode": true
+  "vimMode": false
 }
