@@ -2,3 +2,4 @@ workspace
 workspace.json
 .vscode/
 .history/
+copilot-index-chunk*
