@@ -1,4 +1,5 @@
 {
+  "isPlusUser": false,
   "plusLicenseKey": "",
   "openAIApiKey": "",
   "openAIOrgId": "",
@@ -38,6 +39,14 @@
   "maxSourceChunks": 2,
   "groqApiKey": "",
   "activeModels": [
+    {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "apiKey": ""
+    },
     {
       "name": "gpt-4o",
       "provider": "openai",
@@ -142,6 +151,14 @@
       "core": true,
       "baseUrl": "",
       "apiKey": ""
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
     },
     {
       "name": "copilot-plus-multilingual",
@@ -287,5 +304,6 @@
       "name": "Change tone of selection"
     }
   },
-  "promptUsageTimestamps": {}
+  "promptUsageTimestamps": {},
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}"
 }
