@@ -46,6 +46,7 @@
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "plusExclusive": true,
       "capabilities": [
         "vision"
       ],
@@ -162,6 +163,7 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
+      "plusExclusive": true,
       "baseUrl": "",
       "apiKey": ""
     },
@@ -172,8 +174,10 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
+      "plusExclusive": true,
       "believerExclusive": true,
-      "dimensions": 1024
+      "dimensions": 1024,
+      "apiKey": ""
     },
     {
       "name": "copilot-plus-multilingual",
@@ -182,6 +186,7 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
+      "plusExclusive": true,
       "dimensions": 512,
       "baseUrl": "",
       "apiKey": ""
@@ -203,7 +208,8 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
-      "believerExclusive": true
+      "believerExclusive": true,
+      "apiKey": ""
     },
     {
       "name": "text-embedding-3-large",
@@ -245,7 +251,7 @@
       "name": "BAAI/bge-large-zh-v1.5",
       "provider": "3rd party (openai-format)",
       "baseUrl": "https://api.siliconflow.cn/v1",
-      "apiKey": "sk-rcijmioshokizdoovhvgcisaesmvppplrdmkeuvkdfcpwyll",
+      "apiKey": "enc_desk_djEweqU9r4v5d3dl/ePDt+QOucQ/Exn7p4u3O6osoaoTcDFJUDs6/KR0KZj9Sb0onimgRMCbo/66+Q5+7w3UT/2b6LXgya8Pk8585DSzzyUdWQ==",
       "enabled": true,
       "isBuiltIn": false,
       "enableCors": false,
@@ -255,7 +261,7 @@
       "name": "BAAI/bge-m3",
       "provider": "3rd party (openai-format)",
       "baseUrl": "https://api.siliconflow.cn/v1",
-      "apiKey": "sk-rcijmioshokizdoovhvgcisaesmvppplrdmkeuvkdfcpwyll",
+      "apiKey": "enc_desk_djEwAGpM4FUKYNcBa7LJ1EpBueDp5qkmF9M1rzfHjdVDLKokWUlwsQSnJgHjtkJX/oY5fkMe5IfejwNbu6euSyt7b/CfYM1GXa1HsFUsaX6cCA==",
       "enabled": true,
       "isBuiltIn": false,
       "enableCors": false,
