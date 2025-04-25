@@ -53,6 +53,62 @@
       "apiKey": ""
     },
     {
+      "name": "gpt-4.1",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4.1-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4.1-nano",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "o4-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-3-5-sonnet-latest",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "baseUrl": "",
+      "apiKey": ""
+    },
+    {
       "name": "gpt-4o",
       "provider": "openai",
       "enabled": true,
@@ -67,18 +123,6 @@
     {
       "name": "gpt-4o-mini",
       "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ],
-      "baseUrl": "",
-      "apiKey": ""
-    },
-    {
-      "name": "claude-3-5-sonnet-latest",
-      "provider": "anthropic",
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
@@ -338,5 +382,8 @@
   },
   "promptUsageTimestamps": {},
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
-  "embeddingRequestsPerSecond": 10
+  "embeddingRequestsPerSecond": 10,
+  "userId": "f65caf3c-a358-40ff-a89d-941db8ea78b2",
+  "passMarkdownImages": true,
+  "enableCustomPromptTemplating": true
 }
