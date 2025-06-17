@@ -22,7 +22,9 @@
   "drawingFilnameEmbedPostfix": " ",
   "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss",
   "useExcalidrawExtension": true,
+  "cropSuffix": "",
   "cropPrefix": "cropped_",
+  "annotateSuffix": "",
   "annotatePrefix": "annotated_",
   "annotatePreserveSize": false,
   "displaySVGInPreview": true,
@@ -102,7 +104,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.8.3",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.12.4",
     "libraryItems": [
       {
         "id": "6u8nfYciaYOXmlZCbmLXe",
@@ -574,7 +576,7 @@
     }
   },
   "defaultTrayMode": false,
-  "previousRelease": "2.12.2",
+  "previousRelease": "2.12.4",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",

@@ -47,6 +47,7 @@
       "isBuiltIn": true,
       "core": true,
       "plusExclusive": true,
+      "projectEnabled": false,
       "capabilities": [
         "vision"
       ],
@@ -58,6 +59,7 @@
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "projectEnabled": true,
       "capabilities": [
         "vision"
       ],
@@ -69,6 +71,7 @@
       "enabled": true,
       "isBuiltIn": true,
       "core": true,
+      "projectEnabled": true,
       "capabilities": [
         "vision"
       ],
@@ -385,5 +388,8 @@
   "embeddingRequestsPerSecond": 10,
   "userId": "f65caf3c-a358-40ff-a89d-941db8ea78b2",
   "passMarkdownImages": true,
-  "enableCustomPromptTemplating": true
+  "enableCustomPromptTemplating": true,
+  "includeActiveNoteAsContext": true,
+  "allowAdditionalContext": true,
+  "enableWordCompletion": false
 }
