@@ -14,8 +14,8 @@
   "googleApiKey": "",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "Qwen/Qwen2.5-7B-Instruct|3rd party (openai-format)",
-  "embeddingModelKey": "BAAI/bge-m3|3rd party (openai-format)",
+  "defaultModelKey": "gpt-4.1|openai",
+  "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 1000,
   "contextTurns": 15,
@@ -48,6 +48,42 @@
       "core": true,
       "plusExclusive": true,
       "projectEnabled": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-2.5-flash-lite-preview-06-17",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-2.5-flash",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-2.5-pro",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "projectEnabled": true,
       "capabilities": [
         "vision"
       ],
@@ -391,5 +427,6 @@
   "enableCustomPromptTemplating": true,
   "includeActiveNoteAsContext": true,
   "allowAdditionalContext": true,
-  "enableWordCompletion": false
+  "enableWordCompletion": false,
+  "suggestedDefaultCommands": true
 }
