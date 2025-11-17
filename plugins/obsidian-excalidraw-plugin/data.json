@@ -39,6 +39,8 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
+  "desktopUIMode": "tray",
+  "tabletUIMode": "compact",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -48,6 +50,7 @@
   "penModeDoubleTapEraser": true,
   "penModeSingleFingerPanning": true,
   "penModeCrosshairVisible": false,
+  "panWithRightMouseButton": false,
   "renderImageInMarkdownReadingMode": false,
   "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
@@ -107,7 +110,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.14.0",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.0",
     "libraryItems": [
       {
         "id": "6u8nfYciaYOXmlZCbmLXe",
@@ -578,9 +581,9 @@
       }
     }
   },
-  "defaultTrayMode": false,
-  "previousRelease": "2.14.2",
+  "previousRelease": "2.17.1",
   "showReleaseNotes": true,
+  "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
   "latexPreambleLocation": "preamble.sty",
@@ -1264,6 +1267,8 @@
     "alignment": "center",
     "margin": "normal"
   },
+  "disableContextMenu": false,
+  "defaultTrayMode": false,
   "autosaveInterval": 15000,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",
   "loadCount": 1

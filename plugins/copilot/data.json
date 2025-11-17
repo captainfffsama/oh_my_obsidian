@@ -29,7 +29,7 @@
   "defaultOpenArea": "view",
   "customPromptsFolder": "copilot-custom-prompts",
   "indexVaultToVectorStore": "ON MODE SWITCH",
-  "qaExclusions": "",
+  "qaExclusions": "copilot",
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
@@ -54,7 +54,7 @@
       "apiKey": ""
     },
     {
-      "name": "google/gemini-2.5-flash-lite-preview-06-17",
+      "name": "google/gemini-2.5-flash-lite",
       "provider": "openrouterai",
       "enabled": true,
       "isBuiltIn": true,
@@ -112,17 +112,6 @@
       "apiKey": ""
     },
     {
-      "name": "gpt-5-nano",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
       "name": "gpt-4.1",
       "provider": "openai",
       "enabled": true,
@@ -147,109 +136,95 @@
       "apiKey": ""
     },
     {
-      "name": "gpt-4.1-nano",
-      "provider": "openai",
+      "name": "openai/gpt-4.1",
+      "provider": "openrouterai",
       "enabled": true,
       "isBuiltIn": true,
-      "core": true,
+      "core": false,
+      "projectEnabled": true,
       "capabilities": [
         "vision"
       ],
       "apiKey": ""
     },
     {
-      "name": "o4-mini",
-      "provider": "openai",
+      "name": "openai/gpt-4.1-mini",
+      "provider": "openrouterai",
       "enabled": true,
       "isBuiltIn": true,
-      "core": true,
+      "core": false,
+      "projectEnabled": true,
       "capabilities": [
-        "reasoning"
+        "vision"
       ],
       "apiKey": ""
     },
     {
-      "name": "claude-3-5-sonnet-latest",
+      "name": "grok-4-fast",
+      "provider": "xai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": false,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "x-ai/grok-4-fast",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": false,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "enabled": true,
       "isBuiltIn": true,
-      "core": true,
       "capabilities": [
+        "reasoning",
         "vision"
       ],
-      "baseUrl": "",
       "apiKey": ""
     },
     {
-      "name": "gpt-4o",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ],
-      "baseUrl": "",
-      "apiKey": ""
-    },
-    {
-      "name": "gpt-4o-mini",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ],
-      "baseUrl": "",
-      "apiKey": ""
-    },
-    {
-      "name": "gpt-4-turbo",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "baseUrl": "",
-      "apiKey": ""
-    },
-    {
-      "name": "claude-3-5-haiku-latest",
-      "provider": "anthropic",
-      "enabled": true,
-      "isBuiltIn": true,
-      "baseUrl": "",
-      "apiKey": ""
-    },
-    {
-      "name": "command-r",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "baseUrl": "",
-      "apiKey": ""
-    },
-    {
-      "name": "command-r-plus",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "baseUrl": "",
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-1.5-pro",
+      "name": "gemini-2.5-flash",
       "provider": "google",
       "enabled": true,
       "isBuiltIn": true,
-      "baseUrl": "",
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ],
       "apiKey": ""
     },
     {
-      "name": "gemini-1.5-flash",
+      "name": "gemini-2.5-flash-lite",
       "provider": "google",
       "enabled": true,
       "isBuiltIn": true,
-      "baseUrl": "",
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-2.5-pro",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ],
       "apiKey": ""
     },
     {
@@ -257,7 +232,42 @@
       "provider": "azure openai",
       "enabled": true,
       "isBuiltIn": true,
-      "baseUrl": "",
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-chat",
+      "provider": "deepseek",
+      "enabled": true,
+      "isBuiltIn": true,
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-reasoner",
+      "provider": "deepseek",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": true,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-R1",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": true,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "capabilities": [
+        "reasoning"
+      ],
       "apiKey": ""
     },
     {
@@ -315,6 +325,25 @@
       "isEmbeddingModel": true,
       "core": true,
       "baseUrl": "",
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-embedding-001",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "apiKey": ""
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-0.6B",
+      "provider": "siliconflow",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "baseUrl": "https://api.siliconflow.com/v1",
       "apiKey": ""
     },
     {
@@ -461,5 +490,25 @@
   "includeActiveNoteAsContext": true,
   "allowAdditionalContext": true,
   "enableWordCompletion": false,
-  "suggestedDefaultCommands": true
+  "suggestedDefaultCommands": true,
+  "lexicalSearchRamLimit": 100,
+  "autonomousAgentMaxIterations": 4,
+  "autonomousAgentEnabledToolIds": [
+    "localSearch",
+    "webSearch",
+    "pomodoro",
+    "youtubeTranscription",
+    "writeToFile",
+    "replaceInFile"
+  ],
+  "generateAIChatTitleOnSave": true,
+  "enableAutocomplete": false,
+  "memoryFolderName": "copilot/memory",
+  "enableRecentConversations": true,
+  "enableSavedMemory": true,
+  "maxRecentConversations": 30,
+  "quickCommandIncludeNoteContext": true,
+  "autoIncludeTextSelection": false,
+  "defaultSendShortcut": "enter",
+  "siliconflowApiKey": "enc_desk_djEwQ4ihHuVsZJuqPb3rDGR53aFQFIdQ95ZyXy3aH2acYi89y6ccqwhe/g3hgki+3ibo1T9IqP3cha7DxjtogC9Bn3XQ80tms5G/YT7XE4BsPQ=="
 }
