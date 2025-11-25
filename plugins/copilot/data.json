@@ -14,7 +14,7 @@
   "googleApiKey": "",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gpt-4.1|openai",
+  "defaultModelKey": "THUDM/GLM-Z1-9B-0414|siliconflow",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 1000,
@@ -279,6 +279,22 @@
       "isBuiltIn": false,
       "enableCors": false,
       "isEmbeddingModel": false
+    },
+    {
+      "name": "THUDM/GLM-Z1-9B-0414",
+      "provider": "siliconflow",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1/",
+      "apiKey": "enc_desk_djEwQYJBpS5LieACu1hspSN11lBGoBSKcBCQppHSAJ+H8tQ0dpcHMFmzY4/8vBA4Hb5ILZyj2hboOoOUammCbvNzunwih7oJDxzv2UzWu6UFSA==",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "websearch"
+      ],
+      "stream": true,
+      "displayName": "THUDM/GLM-Z1-9B-0414",
+      "enableCors": false,
+      "maxTokens": 20000
     }
   ],
   "activeEmbeddingModels": [
@@ -291,7 +307,8 @@
       "core": true,
       "plusExclusive": true,
       "baseUrl": "",
-      "apiKey": ""
+      "apiKey": "",
+      "enableCors": false
     },
     {
       "name": "copilot-plus-large",
@@ -355,6 +372,17 @@
       "core": true,
       "believerExclusive": true,
       "apiKey": ""
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-0.6B",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1/",
+      "apiKey": "enc_desk_djEwYjpS8hUWZflIregNoHNRGqwonGj/u2eInPUy1ySBwyMyEhmuEk5i/xw7gvDH/tUsibkVh03oQAJcg4/odZdN4oFpbWX49BWBdh76PeOsvw==",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "Qwen/Qwen3-Embedding-0.6B"
     },
     {
       "name": "text-embedding-3-large",
@@ -510,5 +538,5 @@
   "quickCommandIncludeNoteContext": true,
   "autoIncludeTextSelection": false,
   "defaultSendShortcut": "enter",
-  "siliconflowApiKey": "enc_desk_djEwQ4ihHuVsZJuqPb3rDGR53aFQFIdQ95ZyXy3aH2acYi89y6ccqwhe/g3hgki+3ibo1T9IqP3cha7DxjtogC9Bn3XQ80tms5G/YT7XE4BsPQ=="
+  "siliconflowApiKey": "enc_desk_djEwP6B/fCcDvsjwIoH1o3JKH1293nwl23KX/mWUgje1U3rBUhXjN+8FAskqxjm7IuAIUIMEtLRfFxdOz/N5HJhs8TdYADMZUd+wJI1PylAL6w=="
 }
