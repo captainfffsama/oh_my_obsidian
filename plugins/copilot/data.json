@@ -538,5 +538,6 @@
   "quickCommandIncludeNoteContext": true,
   "autoIncludeTextSelection": false,
   "defaultSendShortcut": "enter",
-  "siliconflowApiKey": "enc_desk_djEwP6B/fCcDvsjwIoH1o3JKH1293nwl23KX/mWUgje1U3rBUhXjN+8FAskqxjm7IuAIUIMEtLRfFxdOz/N5HJhs8TdYADMZUd+wJI1PylAL6w=="
+  "siliconflowApiKey": "enc_desk_djEwXQsYWTV1hA8bL/PVARwOReBw+EAGQWxr8CHrzKlGr7sjaI+BkyZJ0NW4mazRlqKi4L38ZKJzpbbiQVmzOo4zLfu4M+2POVkLiDlLePiZEg==",
+  "enableInlineCitations": true
 }
