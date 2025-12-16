@@ -14,7 +14,7 @@
   "googleApiKey": "",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "THUDM/GLM-Z1-9B-0414|siliconflow",
+  "defaultModelKey": "THUDM/GLM-4.1V-9B-Thinking|siliconflow",
   "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 1000,
@@ -136,6 +136,22 @@
       "apiKey": ""
     },
     {
+      "name": "THUDM/GLM-4.1V-9B-Thinking",
+      "provider": "siliconflow",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1/",
+      "apiKey": "enc_desk_djEwQYJBpS5LieACu1hspSN11lBGoBSKcBCQppHSAJ+H8tQ0dpcHMFmzY4/8vBA4Hb5ILZyj2hboOoOUammCbvNzunwih7oJDxzv2UzWu6UFSA==",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "vision"
+      ],
+      "stream": true,
+      "displayName": "THUDM/GLM-4.1V-9B-Thinking",
+      "enableCors": false,
+      "maxTokens": 63900
+    },
+    {
       "name": "openai/gpt-4.1",
       "provider": "openrouterai",
       "enabled": true,
@@ -255,7 +271,7 @@
       "name": "deepseek-ai/DeepSeek-V3",
       "provider": "siliconflow",
       "enabled": false,
-      "isBuiltIn": true,
+      "isBuiltIn": false,
       "baseUrl": "https://api.siliconflow.com/v1",
       "apiKey": ""
     },
@@ -263,7 +279,7 @@
       "name": "deepseek-ai/DeepSeek-R1",
       "provider": "siliconflow",
       "enabled": false,
-      "isBuiltIn": true,
+      "isBuiltIn": false,
       "baseUrl": "https://api.siliconflow.com/v1",
       "capabilities": [
         "reasoning"
@@ -271,30 +287,18 @@
       "apiKey": ""
     },
     {
-      "name": "Qwen/Qwen2.5-7B-Instruct",
-      "provider": "3rd party (openai-format)",
-      "baseUrl": "https://api.siliconflow.cn/v1",
-      "apiKey": "enc_djExXloVEmK2wFPPZruPDbb0d5THT3M91/XqviYyJQL650jfRycTwMJcYog2OntlkX9hR0Roigj0dhYYllUlc9vp8Q==",
-      "enabled": true,
-      "isBuiltIn": false,
-      "enableCors": false,
-      "isEmbeddingModel": false
-    },
-    {
-      "name": "THUDM/GLM-Z1-9B-0414",
+      "name": "Pro/deepseek-ai/DeepSeek-V3.2",
       "provider": "siliconflow",
       "enabled": true,
       "isBuiltIn": false,
-      "baseUrl": "https://api.siliconflow.cn/v1/",
-      "apiKey": "enc_desk_djEwQYJBpS5LieACu1hspSN11lBGoBSKcBCQppHSAJ+H8tQ0dpcHMFmzY4/8vBA4Hb5ILZyj2hboOoOUammCbvNzunwih7oJDxzv2UzWu6UFSA==",
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "enc_desk_djEwXQsYWTV1hA8bL/PVARwOReBw+EAGQWxr8CHrzKlGr7sjaI+BkyZJ0NW4mazRlqKi4L38ZKJzpbbiQVmzOo4zLfu4M+2POVkLiDlLePiZEg==",
       "isEmbeddingModel": false,
       "capabilities": [
-        "websearch"
+        "reasoning"
       ],
       "stream": true,
-      "displayName": "THUDM/GLM-Z1-9B-0414",
-      "enableCors": false,
-      "maxTokens": 20000
+      "displayName": "Pro/deepseek-ai/DeepSeek-V3.2"
     }
   ],
   "activeEmbeddingModels": [
@@ -360,8 +364,10 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
-      "baseUrl": "https://api.siliconflow.com/v1",
-      "apiKey": ""
+      "baseUrl": "https://api.siliconflow.cn/v1/",
+      "apiKey": "enc_desk_djEwXQsYWTV1hA8bL/PVARwOReBw+EAGQWxr8CHrzKlGr7sjaI+BkyZJ0NW4mazRlqKi4L38ZKJzpbbiQVmzOo4zLfu4M+2POVkLiDlLePiZEg==",
+      "capabilities": [],
+      "displayName": "Qwen/Qwen3-Embedding-0.6B"
     },
     {
       "name": "copilot-plus-large",
