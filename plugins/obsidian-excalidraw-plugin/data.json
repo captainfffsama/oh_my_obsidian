@@ -1,4 +1,6 @@
 {
+  "copyLinkToElemenetAnchorTo100": false,
+  "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
   "folder": "Excalidraw",
   "cropFolder": "",
@@ -74,6 +76,7 @@
   "focusOnFileTab": false,
   "openInMainWorkspace": true,
   "showLinkBrackets": true,
+  "syncElementLinkWithText": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,
@@ -110,7 +113,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.17.2",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.19.0",
     "libraryItems": [
       {
         "id": "6u8nfYciaYOXmlZCbmLXe",
@@ -149,7 +152,8 @@
             ],
             "updated": 1721041441209,
             "link": null,
-            "locked": false
+            "locked": false,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -187,7 +191,8 @@
             "containerId": "ESD1bjOX8ekf7qpEjklNi",
             "originalText": "stage 0",
             "autoResize": true,
-            "lineHeight": 1.25
+            "lineHeight": 1.25,
+            "hasTextLink": false
           },
           {
             "type": "rectangle",
@@ -222,7 +227,8 @@
             ],
             "updated": 1721041444993,
             "link": null,
-            "locked": false
+            "locked": false,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -260,7 +266,8 @@
             "containerId": "ujj_8on4K7foZ-MbT75xV",
             "originalText": "stage 1",
             "autoResize": true,
-            "lineHeight": 1.25
+            "lineHeight": 1.25,
+            "hasTextLink": false
           },
           {
             "type": "rectangle",
@@ -295,7 +302,8 @@
             ],
             "updated": 1721041450991,
             "link": null,
-            "locked": false
+            "locked": false,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -333,7 +341,8 @@
             "containerId": "a_2Av-P0s7lhZm3YEX6ky",
             "originalText": "stage 2",
             "autoResize": true,
-            "lineHeight": 1.25
+            "lineHeight": 1.25,
+            "hasTextLink": false
           },
           {
             "type": "rectangle",
@@ -368,7 +377,8 @@
             ],
             "updated": 1721041454975,
             "link": null,
-            "locked": false
+            "locked": false,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -406,7 +416,8 @@
             "containerId": "52-rZfN6r1oqZvrks0koB",
             "originalText": "stage 3",
             "autoResize": true,
-            "lineHeight": 1.25
+            "lineHeight": 1.25,
+            "hasTextLink": false
           },
           {
             "type": "rectangle",
@@ -441,7 +452,8 @@
             ],
             "updated": 1721041457207,
             "link": null,
-            "locked": false
+            "locked": false,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -479,7 +491,8 @@
             "containerId": "MFjeovKt-XBIifbbSJiTz",
             "originalText": "stage 4",
             "autoResize": true,
-            "lineHeight": 1.25
+            "lineHeight": 1.25,
+            "hasTextLink": false
           },
           {
             "type": "rectangle",
@@ -509,7 +522,8 @@
             "boundElements": [],
             "updated": 1721041466574,
             "link": null,
-            "locked": false
+            "locked": false,
+            "hasTextLink": false
           },
           {
             "type": "text",
@@ -547,7 +561,8 @@
             "containerId": null,
             "originalText": "resnet",
             "autoResize": true,
-            "lineHeight": 1.25
+            "lineHeight": 1.25,
+            "hasTextLink": false
           }
         ],
         "created": 1721041493562
@@ -581,7 +596,7 @@
       }
     }
   },
-  "previousRelease": "2.17.2",
+  "previousRelease": "2.19.0",
   "showReleaseNotes": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
@@ -590,6 +605,7 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
+  "sidepanelTabs": [],
   "customPens": [
     {
       "type": "default",

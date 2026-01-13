@@ -298,7 +298,8 @@
         "reasoning"
       ],
       "stream": true,
-      "displayName": "Pro/deepseek-ai/DeepSeek-V3.2"
+      "displayName": "Pro/deepseek-ai/DeepSeek-V3.2",
+      "maxTokens": 63900
     }
   ],
   "activeEmbeddingModels": [
