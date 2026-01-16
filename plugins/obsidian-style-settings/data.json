@@ -1,4 +1,8 @@
 {
-  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-solarized-light",
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord"
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-dracula",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
+  "blue-topaz-theme@@resizable-mermaid": true,
+  "blue-topaz-theme@@naked-embed": true,
+  "Blue-Topaz-Codebox-Highlight@@code-line-number": false,
+  "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-frosted-glass"
 }
